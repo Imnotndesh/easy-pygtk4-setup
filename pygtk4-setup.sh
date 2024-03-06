@@ -22,6 +22,8 @@ python3 -m pip install --upgrade pip
 # Insalling necessary pip packages
 pip install pyCairo PyGObject
 
+echo "Finished setting up dev environment"
+echo "Checking if works!"
 # Testing if it works
 
 # Sample PyGTK4 app code
@@ -77,4 +79,3 @@ echo "$main_code" > main.py
 python main.py
 
 # Done
-echo "Finished setting up dev environment"
